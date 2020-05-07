@@ -56,7 +56,7 @@
                               action="<?= site_url('appointments/cancel/' . $appointment_data['hash']) ?>">
                             <input type="hidden" name="csrfToken" value="<?= $this->security->get_csrf_hash() ?>" />
                             <textarea name="cancel_reason" style="display:none"></textarea>
-                            <button id="cancel-appointment" class="btn btn-default btn-sm"><?= lang('cancel') ?></button>
+                            <button id="cancel-appointment" class="btn btn-default btn-sm"><?= lang('cancel_appointment') ?></button>
                         </form>
                     </div>
                 </div>
